@@ -1,10 +1,11 @@
 import HomepageHero from "@/components/hero";
-import Navbar from "@/components/navbar";
+import ForYouSection from "@/components/sections/for-you";
 
 export default function Home() {
   return (
     <>
       <HomepageHero/>
+      <ForYouSection/>
     </>
   );
 }
