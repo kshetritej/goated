@@ -1,0 +1,6 @@
+.heroBackground {
+  background-image: url('../vfarmer.jpg');
+  background-size: cover;
+  background-position: bottom;
+  height: 540px; 
+}

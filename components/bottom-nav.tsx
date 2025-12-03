@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function BottomNav() {
   return (
-    <div className="flex justify-between py-4 items-center">
+    <div className="flex justify-between pt-8 items-center">
       <Logo />
       <div className="flex gap-2 ">
         {TopNavItems.map((navItem) => {
