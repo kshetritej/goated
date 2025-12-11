@@ -21,7 +21,7 @@ export default function ForYouCard() {
   return (
     <Card className="p-0 overflow-hidden m-0 text-left hover:-translate-y-0.5 ease-in-out transform-all">
       <CardHeader className="p-0">
-        <div className="rounded-t-3xl bg-amber-400 p-4 flex gap-2 items-center -mb-4 text-accent">
+        <div className="rounded-t-xl bg-amber-400 p-4 flex gap-2 items-center -mb-4 text-accent">
           <LucideMountain size={32} fill="white" stroke="white" />
           <div className="flex flex-col text-left">
             <p className="font-bold -mb-1">Intermediate</p>
@@ -32,7 +32,7 @@ export default function ForYouCard() {
       </CardHeader>
       <CardContent className="flex flex-col gap-2">
         <CardTitle className="text-xl">Classic Dolorama Weg</CardTitle>
-        <CardDescription className="flex gap-4 items-center -ml-3">
+        <CardDescription className="flex gap-4 items-center -ml-3 flex-wrap">
           <Button
             variant={"link"}
             className="flex gap-1 items-center justify-center"
